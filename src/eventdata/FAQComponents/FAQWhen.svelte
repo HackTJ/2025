@@ -3,7 +3,5 @@
 </script>
 
 <p>
-	HackTJ will start on {event.start.format('dddd, MMMM D')} and run until {event.end.format(
-		'dddd, MMMM D'
-	)}.
+	<strong>Please note that the exact dates for HackTJ 12.0 are not yet finalized.</strong>
 </p>

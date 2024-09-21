@@ -21,7 +21,7 @@
 		{
 			text: 'FAQ',
 			href: `${base}/faq`,
-			button: { class: 'bg-lightyellow-100 hover:bg-lightyellow-200' }
+			button: { class: 'bg-[#A2CEF1] hover:bg-[#83BDEC]' }
 		},
 		{
 			text: 'Schedule',
@@ -63,26 +63,26 @@
 			<div class="text-white font-bold text-6xl md:text-8xl">
 				HackTJ
 				<!-- TODO: `Overpass Mono`: -->
-				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100"
+				<sup class="text-3xl md:text-4xl font-mono align-super" style="color: rgba(161,206,241,255);"
 					>{event.iteration}</sup
 				>
 			</div>
 			<h3 class="text-white font-medium text-xl md:text-2xl w-3/4">
-				<!-- <span class="text-theme-100 font-bold">March 4-5, Cvent</span>
-				<br /> -->
+				<span class="text-[#A7D0F1] font-bold">March 8-9, Cvent</span>
+				<br />
 				Build the next greatest thing - oh, and bring your friends along too.
 			</h3>
 			<div class="flex flex-col md:flex-row mt-6 space-y-3 md:space-y-0 space-x-0 md:space-x-3">
 				{#if registration.isOpen}
 					<a
 						href="{base}/register"
-						class="block text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
+						class="block text-center py-3 bg-[#83BDEC] hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
 						>&emsp;Register&emsp;</a
 					>
 				{/if}
 				<a
 					href="{base}/schedule"
-					class="block text-center py-3 bg-spruce-100 hover:bg-spruce-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
+					class="block text-center py-3 bg-[rgba(161,206,241,255)] hover:bg-purple-400 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
 					>Schedule</a
 				>
 			</div>
@@ -96,17 +96,17 @@
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
 		>
-			<rect x="-326" width="599" height="61" rx="30.5" fill="#FE5F55" />
+			<rect x="-326" width="599" height="61" rx="30.5" fill="#B8F1EF" />
 			<path
 				d="M321 30.5C321 13.6553 334.655 0 351.5 0H1441V61H351.5C334.655 61 321 47.3447 321 30.5V30.5Z"
-				fill="#737AB0"
+				fill="#a2cef1"
 			/>
 		</svg>
 		<svg class="mb-6" viewBox="0 0 1440 61" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<rect x="-323" width="470" height="61" rx="30.5" fill="#F3F7F0" />
 			<rect x="195" width="271" height="61" rx="30.5" fill="#B8DBD9" />
-			<rect x="514" width="458" height="61" rx="30.5" fill="#FB6376" />
-			<rect x="1020" width="599" height="61" rx="30.5" fill="#FED049" />
+			<rect x="514" width="458" height="61" rx="30.5" fill="#6AB4B0" />
+			<rect x="1020" width="599" height="61" rx="30.5" fill="#799bb6" />
 		</svg>
 	</div>
 </div>
@@ -114,7 +114,7 @@
 <!-- About Section -->
 <section class="mt-8 p-8 md:p-12 text-blueberry-200" id="about">
 	<h1 class="text-4xl md:text-6xl lg:text-7xl font-black">
-		Welcome to the Future Generation of <span class="text-theme-100">Coders</span>
+		Welcome to the Future Generation of <span class="text-[#A7D0F1]">Coders</span>
 	</h1>
 	<div class="flex flex-col lg:flex-row mt-4 text-lg space-y-8 lg:space-y-0 lg:space-x-8">
 		<p class="flex-1">
@@ -133,7 +133,7 @@
 	<div class="flex flex-col md:flex-row mt-6 space-y-3 md:space-y-0 space-x-0 md:space-x-3">
 		<a
 			href="{base}/faq"
-			class="block text-center py-3 bg-lightyellow-100 hover:bg-lightyellow-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
+			class="block text-center py-3 bg-[#A7D0F1] hover:bg-[#83BDEC] text-blueberry-800 text-xl font-bold rounded-2xl px-8"
 			>FAQ</a
 		>
 		<a
@@ -168,12 +168,12 @@
 		<h1 class="text-4xl md:text-6xl font-black text-white">Sponsors</h1>
 		<h3 class="mt-2 text-xl md:text-2xl font-bold text-blueberry-200">
 			Interested in sponsoring? Check out our <a
-				class="underline text-theme-100 hover:text-theme-200"
+				class="underline text-[#A7D0F1] hover:text-[#83BDEC]"
 				href="{base}/{event.sponsorshipPacket}"
 				target="_blank">{event.iteration} sponsorship packet</a
 			>
 			or email us at
-			<a class="underline text-theme-100 hover:text-theme-200" href="mailto:sponsor@hacktj.org"
+			<a class="underline text-[#A7D0F1] hover:text-[#83BDEC]" href="mailto:sponsor@hacktj.org"
 				>sponsor@hacktj.org</a
 			> if you're interested or have any questions!
 		</h3>
@@ -191,7 +191,7 @@
 		unstyled={true}
 		classBg="fixed top-0 left-0 w-screen h-screen flex flex-col justify-center bg-blackberry-800/[0.8] z-10"
 		classWindowWrap="relative m-4 max-h-full"
-		classWindow="rounded-2xl bg-theme-100 text-black p-6 md:p-8 max-w-xl max-h-full m-auto relative"
+		classWindow="rounded-2xl bg-[#A7D0F1] text-black p-6 md:p-8 max-w-xl max-h-full m-auto relative"
 		closeButton={CloseButton}
 	>
 		<div
@@ -219,7 +219,7 @@
 				href={location.mapsLink}
 				target="_blank"
 				rel="noopener noreferred"
-				class="block mt-4 text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl"
+				class="block mt-4 text-center py-3 bg-[#A7D0F1] hover:bg-[#83BDEC] text-blueberry-800 text-xl font-bold rounded-2xl"
 				>Open in Google Maps</a
 			>
 		</div>

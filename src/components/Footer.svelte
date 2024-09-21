@@ -11,7 +11,7 @@
 </script>
 
 <div
-	class="py-8 px-8 md:px-12 w-full bg-theme-100 sm:flex sm:justify-center sm:justify-end items-center text-blackberry-800 ${classNames}"
+	class="py-8 px-8 md:px-12 w-full bg-[#A7D0F1] sm:flex sm:justify-center sm:justify-end items-center text-blackberry-800 ${classNames}"
 >
 	<div class="flex justify-evenly space-x-4 sm:space-x-8 sm:ml-auto">
 		<a href="mailto:hello@hacktj.org" target="_blank" class="hover:text-blackberry-500">

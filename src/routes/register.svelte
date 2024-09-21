@@ -10,7 +10,7 @@
 
 <section class="text-blueberry-200 flex flex-col justify-between min-h-screen">
 	<div class="p-8 md:p-12 flex flex-col grow">
-		<a href="{base}/"><Home width="32px" class="text-theme-100 hover:text-theme-200" /></a>
+		<a href="{base}/"><Home width="32px" class="text-[#A7D0F1] hover:text-[#83BDEC]" /></a>
 		<h1 class="text-5xl font-black text-white mt-8 mb-2">Registration</h1>
 		<p>
 			{#if registration.participant.notOpenYet}

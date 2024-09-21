@@ -3,5 +3,5 @@
 </script>
 
 <p>
-	<strong>Please note that the exact dates for HackTJ 12.0 are not yet finalized.</strong>
+	<strong>Save the Date! HackTJ 12.0 will be held March 8-9th 2025!</strong>
 </p>

@@ -8,7 +8,7 @@
 	import Navbar from '../components/Navbar.svelte';
 	import CloseButton from '../components/Index/CloseButton.svelte';
 	// import AboutCard from '../components/Index/AboutCard.svelte';
-	import Modal from 'svelte-simple-modal';
+	import Modal from 'svelte-simple-modal'
 	import { event, location, registration } from '../constants';
 	import { sponsorData, teamMembers } from '../eventdata';
 	import { googleMapsKey } from '../keys/.';
@@ -90,24 +90,18 @@
 		<img alt="TJHSST Dome" src="{base}/dome.svg" class="hidden lg:flex self-end max-h-full" />
 	</div>
 	<div class="w-full absolute bottom-0 lg:w-auto lg:relative">
-		<svg
-			class="-mt-1 mb-2 md:mb-6"
-			viewBox="0 0 1440 61"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-		>
-			<rect x="-326" width="599" height="61" rx="30.5" fill="#B8F1EF" />
-			<path
-				d="M321 30.5C321 13.6553 334.655 0 351.5 0H1441V61H351.5C334.655 61 321 47.3447 321 30.5V30.5Z"
-				fill="#a2cef1"
-			/>
-		</svg>
-		<svg class="mb-6" viewBox="0 0 1440 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<rect x="-323" width="470" height="61" rx="30.5" fill="#F3F7F0" />
-			<rect x="195" width="271" height="61" rx="30.5" fill="#B8DBD9" />
-			<rect x="514" width="458" height="61" rx="30.5" fill="#6AB4B0" />
-			<rect x="1020" width="599" height="61" rx="30.5" fill="#799bb6" />
-		</svg>
+		<div class="hidden lg:block">
+			<svg class="-mt-1 mb-2 md:mb-6" viewBox="0 0 1440 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect x="-326" width="599" height="61" rx="30.5" fill="#B8F1EF" />
+				<path d="M321 30.5C321 13.6553 334.655 0 351.5 0H1441V61H351.5C334.655 61 321 47.3447 321 30.5V30.5Z" fill="#a2cef1" />
+			</svg>
+			<svg class="mb-6" viewBox="0 0 1440 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect x="-323" width="470" height="61" rx="30.5" fill="#F3F7F0" />
+				<rect x="195" width="271" height="61" rx="30.5" fill="#B8DBD9" />
+				<rect x="514" width="458" height="61" rx="30.5" fill="#6AB4B0" />
+				<rect x="1020" width="599" height="61" rx="30.5" fill="#799bb6" />
+			</svg>
+		</div>
 	</div>
 </div>
 

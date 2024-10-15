@@ -51,7 +51,7 @@ let teamMembers = [
 		years: 1,
 		director: false,
 		description: '',
-		portraitSrc: `${base}/teamportraits/blank.png`,
+		portraitSrc: `${base}/teamportraits/blank.JPG`,
 		order: 5
 	},
 	{

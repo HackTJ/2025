@@ -11,8 +11,8 @@ module.exports = {
 				transparent: 'transparent',
 				current: 'currentColor',
 				theme: {
-					100: '#e7d2ff',
-					200: '#d1aefd'
+					100: '#A7D0F1',
+					200: '#83BDEC'
 				},
 				lightyellow: {
 					50: '#fee2a1',
@@ -104,7 +104,8 @@ module.exports = {
 					700: '#384342',
 					800: '#272e2e',
 					900: '#171b1b'
-				}
+				},
+	
 			},
 			fontFamily: {
 				sans: ['"Red Hat Display"', ...defaultTheme.fontFamily.sans]

@@ -40,6 +40,7 @@
 	"type": "module",
 	"dependencies": {
 		"@svicons/ionicons-solid": "^0.1.11",
-		"dayjs": "^1.11.4"
+		"dayjs": "^1.11.4",
+		"svelte-icons": "^2.1.0"
 	}
 }

@@ -10,6 +10,7 @@
 
 	const { open } = getContext('simple-modal');
 	const openAboutInfo = () => open(TeamMemberModal, { name, portraitSrc, description });
+	console.log(portraitSrc)
 </script>
 
 <!-- TODO: Dialog Popup -->

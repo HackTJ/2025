@@ -32,6 +32,11 @@
 			text: 'Resources',
 			href: `${base}/resources`,
 			button: { class: 'bg-blueberry-200 hover:bg-blueberry-300' }
+		}, 
+		{
+			text: 'Past Winners',
+			href: `${base}/winners`,
+			button: { class: 'bg-rose-300 hover:bg-rose-400' }
 		}
 	];
 </script>

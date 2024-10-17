@@ -14,6 +14,9 @@ importers:
       dayjs:
         specifier: ^1.11.4
         version: 1.11.13
+      svelte-icons:
+        specifier: ^2.1.0
+        version: 2.1.0
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: 1.0.0-next.38
@@ -1250,6 +1253,9 @@ packages:
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
       svelte: ^3.19.0 || ^4.0.0
+
+  svelte-icons@2.1.0:
+    resolution: {integrity: sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg==}
 
   svelte-preprocess@4.10.7:
     resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
@@ -2557,6 +2563,8 @@ snapshots:
   svelte-hmr@0.15.3(svelte@3.59.2):
     dependencies:
       svelte: 3.59.2
+
+  svelte-icons@2.1.0: {}
 
   svelte-preprocess@4.10.7(postcss-load-config@4.0.2(postcss@8.4.47))(postcss@8.4.47)(sass@1.78.0)(svelte@3.59.2)(typescript@4.9.5):
     dependencies:

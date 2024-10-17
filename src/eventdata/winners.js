@@ -27,7 +27,7 @@ export default [
 	{
 		title: 'Best AI/ML Hack',
 		description:
-			"Ingredient identification from images (picture of fridge, etc.) and grocery store receipts - Recipe recommendation given ingredients- Recommended caloric intake calculator for each user's information- Logging of caloric information for each recipe and daily calorie intake.",
+			"Nutrium uses AI to identify ingredients from images or grocery receipts, recommends recipes based on those ingredients, and calculates personalized caloric intake, while also logging daily calorie consumption.",
 		name: 'Nutrium',
         picture: `${base}/pastwinners/2024/BestAIMLHack.jpg`,
         winners: 'Michael Rodriguez, Ryan Ghimire, Syed Raza Haider',
@@ -36,7 +36,7 @@ export default [
 	{
 		title: 'Best Web Hack',
 		description:
-			"WeCode serves as a comprehensive online hub for coding enthusiasts, offering an array of coding challenges, competitions, learning materials, and opportunities for community engagement. This platform encompasses a wide variety of coding tasks across multiple programming languages, algorithms, and problem-solving contexts",
+			"WeCode is a coding platform offering diverse challenges, competitions, and learning resources, fostering community engagement across multiple programming languages.",
         name: 'WeCode',
         picture: `${base}/pastwinners/2024/BestWebHack.jpg`,
         winners: 'Drew Zauel, Nikhit Rachapudi, Max Weinstein, Eshwar Moorthy',
@@ -45,7 +45,7 @@ export default [
     {
 		title: 'Best Finance Hack',
 		description:
-			"Our website takes in eight parameters (credit score, years of credit history, number of missed payments, number of credit cards, money outstanding on car payment, money outstanding on house payment, money outstanding on other payments, and an action) and a predicted credit score and advice.",
+			"This simulator predicts credit scores based on eight financial parameters, providing users with personalized advice to improve their creditworthiness.",
         name: 'Credit Score Simulator',
         picture: `${base}/pastwinners/2024/BestFinanceHack.jpg`,
         winners: 'Anika Saraf, Sahil Kapadia, Angelina Richter, Alina Chen',
@@ -54,7 +54,7 @@ export default [
     {
 		title: 'Best Mobile Hack',
 		description:
-			"Our website takes in eight parameters (credit score, years of credit history, number of missed payments, number of credit cards, money outstanding on car payment, money outstanding on house payment, money outstanding on other payments, and an action) and a predicted credit score and advice.",
+			"Bites allows users to input key financial parameters to predict future credit scores and receive actionable insights on improving them.",
         name: 'Bites',
         picture: `${base}/pastwinners/2024/BestMobileHack.jpg`,
         winners: 'Arvind Ragunathan, Brij Baghat, Rohan Kalahasty',
@@ -82,7 +82,7 @@ export default [
     {
 		title: 'Best Biomedical Hack',
 		description:
-            "FIN is a financial stock recommendation app that incorporates a swiping mechanism for users",
+            "Cost effective and non-invasive at-home diagnosis for hypertension.",
         name: 'Helping Hearts',
         picture: `na`,
         winners: 'Ojas Chaudhary, Noah Kabiri, Alex Nassif, Phong Lam', 

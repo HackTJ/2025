@@ -12,7 +12,7 @@ let teamMembers = [
 		director: true,
 		description:
 			'Samvrit is a senior at TJHSST and this is his third year on the HackTJ team and he joined after competing in freshman year. He is passionate about the intersection of computer science and biology and likes to pursue translational projects related to infectious and neurological diseases. Along with Hack TJ, he is an avid member of clubs such as TSA, TJ Speech, and German Honor Society.Outside of school he runs a summer stem program for elementary and middle school kids. In his free time, he likes to read, play basketball, and listen to the newest rap album.',
-		portraitSrc: `${base}/teamportraits/Samvrit.JPG`,
+		portraitSrc: `${base}/teamportraits/Samvrit.jpg`,
 		order: 1
 	},
 	{
@@ -32,7 +32,7 @@ let teamMembers = [
 		director: false,
 		description:
 			'Avni is a senior at TJHSST, and this is her third year on the team after competing freshman year in HackTJ 9.0! She hopes to make HackTJ a memorable experience for everyone. Avni enjoys math and computer science, especially in the fields of AI and ML. Aside from HackTJ, she is also part of the Varsity Math Team and Computer Team. In her free time, she likes to bike, read, and play card games.',
-		portraitSrc: `${base}/teamportraits/Avni.JPG`,
+		portraitSrc: `${base}/teamportraits/Avni.jpg`,
 		order: 3
 	},
 	{
@@ -50,8 +50,8 @@ let teamMembers = [
 		class: '2025',
 		years: 1,
 		director: false,
-		description: '',
-		portraitSrc: `${base}/teamportraits/blank.png`,
+		description: 'Leah, a senior at TJHSST, is pumped for her first year on the team after competing on HackTJ 11.0. She loves applying computer science for real-world applications, particularly in creating assistive technology. In her free time, she’s either drawing or doom-scrolling reels.',
+		portraitSrc: `${base}/teamportraits/Leah.jpg`,
 		order: 5
 	},
 	{
@@ -60,7 +60,7 @@ let teamMembers = [
 		years: 1,
 		director: false,
 		description: '',
-		portraitSrc: `${base}/teamportraits/blank.png`,
+		portraitSrc: `${base}/teamportraits/Megan.jpeg`,
 		order: 6
 	},
 	{
@@ -69,7 +69,7 @@ let teamMembers = [
 		years: 1,
 		director: false,
 		description: '',
-		portraitSrc: `${base}/teamportraits/blank.png`,
+		portraitSrc: `${base}/teamportraits/Chinmayee.jpg`,
 		order: 7
 	},
 	{
@@ -78,8 +78,8 @@ let teamMembers = [
 		years: 2,
 		director: false,
 		description:
-			'Aanya is a junior at TJHSST, and this is her second year on the team after competing in HackTJ 10.0! She enjoys finding ways to bridge gaps between computer science and biology, solving problems that impact social good. Outside of HackTJ, she is an active participant in the Bioinformatics club, Teknos, and Coding Lady Colonials! In her free time, she enjoys baking for her friends, listening to music, and rock climbing.',
-		portraitSrc: `${base}/teamportraits/Aanya.JPG`,
+			'Aanya is a junior at TJHSST, and this is her second year on the team after competing in HackTJ 10.0! She enjoys finding ways to bridge gaps between computer science and biology, solving problems that impact social good. Outside of HackTJ, she is an active participant in Teknos and Coding Lady Colonials! In her free time, she enjoys baking for her friends, listening to music, and rock climbing.',
+		portraitSrc: `${base}/teamportraits/Aanya.jpg`,
 		order: 8
 	},
 	{
@@ -88,7 +88,7 @@ let teamMembers = [
 		years: 1,
 		director: false,
 		description: '',
-		portraitSrc: `${base}/teamportraits/blank.png`,
+		portraitSrc: `${base}/teamportraits/Medhansh.jpg`,
 		order: 9
 	},
 	{
@@ -96,8 +96,8 @@ let teamMembers = [
 		class: '2026',
 		years: 1,
 		director: false,
-		description: '',
-		portraitSrc: `${base}/teamportraits/blank.png`,
+		description: 'Hashmita is a junior at TJHSST, and she is excited for her first year on the team. She enjoys using her computer science knowledge to solve competitive programming problems and create apps that can help tackle real-world issues. Outside of HackTJ, she is involved in TSA and the Computer Team. In her free time, she enjoys playing basketball, baking, watching TV (especially Suits), and listening to music.',
+		portraitSrc: `${base}/teamportraits/Hashmita.jpg`,
 		order: 10
 	},
 	{
@@ -105,8 +105,8 @@ let teamMembers = [
 		class: '2027',
 		years: 1,
 		director: false,
-		description: '',
-		portraitSrc: `${base}/teamportraits/blank.png`,
+		description: 'Shaurya is a sophomore at TJHSST, and he is excited for his first year on the team after competing in HackTJ 11.0. He is interested in the application of machine learning and gen AI in creating solutions for human flourishing, as well as competitive programming and math. Outside of HackTJ, he is a dedicated member of Varsity Math Team and Computer Team. In his free time, he enjoys playing cricket with friends, spending time with family, and biking.',
+		portraitSrc: `${base}/teamportraits/Shaurya.jpg`,
 		order: 11
 	},
 	{
@@ -114,8 +114,8 @@ let teamMembers = [
 		class: '2027',
 		years: 1,
 		director: false,
-		description: '',
-		portraitSrc: `${base}/teamportraits/blank.png`,
+		description: 'Sanya is a sophomore at TJHSST, and she is excited for her first year on the team after competing in HackTJ 11.0. She is fascinated by the intersection of computer science, particularly artificial intelligence, and its transformative applications in business and engineering. Outside of HackTJ, she is a dedicated member of TSA and Namaste Club. In her free time, she enjoys watching TV, going to the gym, listening to music, and flying planes.',
+		portraitSrc: `${base}/teamportraits/Sanya.jpg`,
 		order: 12
 	},
 	{
@@ -123,8 +123,8 @@ let teamMembers = [
 		class: '2027',
 		years: 1,
 		director: false,
-		description: '',
-		portraitSrc: `${base}/teamportraits/blank.png`,
+		description: 'Sidh is a sophomore at TJHSST and is thrilled for his first year on the team after competing in HackTJ 11.0. He is interested in the applications of machine learning, particularly generative AI, in combating pressing real-world problems like climate change. Outside of HackTJ, he is a member of the Science Olympiad team and an officer and lecturer at Computer Vision club. In his free time, he enjoys hiking on scenic trails all throughout Virginia and exploring the outdoors.',
+		portraitSrc: `${base}/teamportraits/Sidh.jpg`,
 		order: 13
 	},
 	{
@@ -133,7 +133,7 @@ let teamMembers = [
 		years: 1,
 		director: false,
 		description: '',
-		portraitSrc: `${base}/teamportraits/blank.png`,
+		portraitSrc: `${base}/teamportraits/Dhanvin.jpg`,
 		order: 14
 	},
 	{

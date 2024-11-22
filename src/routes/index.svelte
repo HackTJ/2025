@@ -26,7 +26,7 @@
 		{
 			text: 'Schedule',
 			href: `${base}/schedule`,
-			button: { class: 'bg-spruce-200 hover:bg-spruce-300' }
+			button: { class: 'bg-[#8EADF6] hover:bg-[#6892F3]' }
 		},
 		{
 			text: 'Resources',
@@ -36,7 +36,7 @@
 		{
 			text: 'Past Winners',
 			href: `${base}/winners`,
-			button: { class: 'bg-rose-300 hover:bg-rose-400' }
+			button: { class: 'bg-spruce-200 hover:bg-spruce-300' }
 		}
 	];
 </script>
@@ -87,7 +87,7 @@
 				{/if}
 				<a
 					href="{base}/schedule"
-					class="block text-center py-3 bg-[rgba(161,206,241,255)] hover:bg-purple-400 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
+					class="block text-center py-3 bg-[rgba(161,206,241,255)] hover:bg-[#83BDEC] text-blueberry-800 text-xl font-bold rounded-2xl px-8"
 					>Schedule</a
 				>
 			</div>

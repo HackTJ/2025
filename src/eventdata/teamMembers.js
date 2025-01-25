@@ -59,7 +59,7 @@ let teamMembers = [
 		class: '2025',
 		years: 1,
 		director: false,
-		description: '',
+		description: 'Megan is a senior at TJHSST and this is her first year on the team after competing in HackTJ 11.0. She’s fascinated with bioastronautics, the study of advancing human life in space, along with space policy. Outside of HackTJ, she serves as Student Representative to the Fairfax County School Board and is actively involved in TSA and Techstravaganza. In her free time, you can find her with her dog, spending time with her friends, or watching a comfort show on Netflix.',
 		portraitSrc: `${base}/teamportraits/Megan.jpeg`,
 		order: 6
 	},

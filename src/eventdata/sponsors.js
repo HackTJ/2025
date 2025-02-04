@@ -8,12 +8,27 @@ const sponsors = {
 	platinum: [],
 	gold: [
 		{
+			src: `${base}/sponsorlogos/eda.png`,
+			alt: 'EDA Logo',
+			href: 'https://fairfaxcountyeda.org/'
+		},
+		{
+			src: `${base}/sponsorlogos/eduavenues.png`,
+			alt: 'Eduavenues Logo',
+			href: 'https://www.eduavenues.com/'
+		},
+		{
 			src: `${base}/sponsorlogos/roam.png`,
 			alt: 'Roam Logo',
 			href: 'https://ro.am/'
 		}
 	],
 	silver: [
+		{
+			src: `${base}/sponsorlogos/Appian-Logo_White.png`,
+			alt: 'Appian Logo',
+			href: 'https://www.appian.com/'
+		},
 		{
 			src: `${base}/sponsorlogos/janestreet.png`,
 			alt: 'Jane Street Logo',
@@ -22,26 +37,19 @@ const sponsors = {
 	],
 	bronze: [
 		{
-			src: `${base}/sponsorlogos/collegeramp.png`,
-			alt: 'College Ramp Logo',
-			href: 'https://www.collegeramp.org/'
+			src: `${base}/sponsorlogos/FTech.png`,
+			alt: 'Future Technology Logo',
+			href: 'https://ftechi.com/'
 		},
 		{
 			src: `${base}/sponsorlogos/teoco.png`,
 			alt: 'TEOCO Logo',
 			href: 'https://www.teoco.com/'
-		}
-	],
-	prize: [
-		{
-			src: `${base}/sponsorlogos/quantinuum.png`,
-			alt: 'Quantinuum Logo',
-			href: 'https://www.quantinuum.com'
 		},
 		{
-			src: `${base}/sponsorlogos/venturecamp.png`,
-			alt: 'Venture Camp Logo',
-			href: ''
+			src: `${base}/sponsorlogos/otis-logo.png`,
+			alt: 'Otis Logo',
+			href: 'https://www.otis.com/'
 		}
 	],
 	partners: [

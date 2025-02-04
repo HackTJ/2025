@@ -42,7 +42,7 @@
 		>
 			<RegistrationColumn
 				title="Participant"
-				link="https://forms.gle/8CZHKSg2csL9ufEh6"
+				link="https://forms.gle/gtoj53sxCrBL48U19"
 				linkText="Participant Registration"
 				closed={!registration.participant.isOpen}
 			>
@@ -61,7 +61,7 @@
 				title="Volunteer"
 				link="https://www.signupgenius.com/go/70A0F49A8AD22AAF58-47414114-hacktj"
 				linkText="Volunteer Registration"
-				closed={!registration.other.isOpen}
+				closed={registration.other.isOpen}
 			>
 				<p>
 					Volunteers help with various tasks during the hackathon, such as checking in participants,
@@ -70,12 +70,12 @@
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Mentor/Judge"
-				link="https://forms.gle/vCxvt3tuCYoptUF76"
+				link="https://docs.google.com/forms/d/1FtWkPL97Fq8vIa7fwdccXA_vWkcJNN9GlwYN6zPYeF8/viewform?edit_requested=true"
 				linkText="Mentor/Judge Registration"
 				closed={!registration.other.isOpen}
 			>
 				<p>
-					Judges must be present during the entire judging process (8:00 a.m. to 12:00 a.m. on
+					Judges must be present during the entire judging process (8:00 a.m. to 12:00 p.m. on
 					Sunday), but not necessarily during the entire hackathon. Computer science and engineering
 					experience is preferred but not required.
 				</p>
@@ -87,7 +87,7 @@
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Workshop Host"
-				link="https://forms.gle/YqTw3Ng21dxeiMk5A"
+				link="https://docs.google.com/forms/d/1EjFBsi-H2kyqSniuIb7W27g6vcLzUAm3ITvgNLXxwMA/"
 				linkText="Workshop Host Registration"
 				closed={!registration.other.isOpen}
 			>
@@ -105,7 +105,7 @@
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Photographer"
-				link="https://forms.gle/BYahZGAbYFdveiU18"
+				link="https://docs.google.com/forms/d/e/1FAIpQLSeql8mPhVIQ8SEux_XM4wRHfvXowZROp-flmDFwyyyhy3x-hQ/viewform?fbclid=IwY2xjawIEucpleHRuA2FlbQIxMAABHefqmfi-XFAKmwpB9MIKyKw1wczWkX3wYFTgTFkgifsidEUBZ3RkU3fNRA_aem_rCgK374kR1iuxlcdoAmUOQ"
 				linkText="Photographer Registration"
 				closed={!registration.other.isOpen}
 			>

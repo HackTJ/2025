@@ -5,7 +5,7 @@
 <p>
 	Registration for participants, volunteers, mentors, judges, workshop hosts, and photographers
 	opens on 
-	<strong>January 24th</strong> .
+	<strong>January 27th</strong> .
 </p>
 
 <p class="mt-2">

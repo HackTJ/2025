@@ -59,7 +59,7 @@ const sponsors = {
 			href: 'https://www.cvent.com/'
 		},
 		{
-			src: `${base}/sponsorlogos/tjpartnership.png`,
+			src: `${base}/sponsorlogos/tjpf.png`,
 			alt: 'TJ Partnership Fund Logo',
 			href: 'https://www.tjpartnershipfund.org/'
 		}
@@ -97,12 +97,12 @@ const partnershipData = {
 	cards: sponsors.partners
 };
 const sponsorData = [
+	partnershipData,
 	platinumTierData,
 	goldTierData,
 	silverTierData,
 	bronzeTierData,
 	prizeTierData,
-	partnershipData
 ];
 
 export default sponsorData;

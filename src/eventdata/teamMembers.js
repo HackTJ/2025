@@ -50,7 +50,8 @@ let teamMembers = [
 		class: '2025',
 		years: 1,
 		director: false,
-		description: 'Leah, a senior at TJHSST, is pumped for her first year on the team after competing on HackTJ 11.0. She loves applying computer science for real-world applications, particularly in creating assistive technology. In her free time, she’s either drawing or doom-scrolling reels.',
+		description:
+			'Leah, a senior at TJHSST, is pumped for her first year on the team after competing on HackTJ 11.0. She loves applying computer science for real-world applications, particularly in creating assistive technology. In her free time, she’s either drawing or doom-scrolling reels.',
 		portraitSrc: `${base}/teamportraits/Leah.jpg`,
 		order: 5
 	},
@@ -59,7 +60,8 @@ let teamMembers = [
 		class: '2025',
 		years: 1,
 		director: false,
-		description: 'Megan is a senior at TJHSST and this is her first year on the team after competing in HackTJ 11.0. She’s fascinated with bioastronautics, the study of advancing human life in space, along with space policy. Outside of HackTJ, she serves as Student Representative to the Fairfax County School Board and is actively involved in TSA and Techstravaganza. In her free time, you can find her with her dog, spending time with her friends, or watching a comfort show on Netflix.',
+		description:
+			'Megan is a senior at TJHSST and this is her first year on the team after competing in HackTJ 11.0. She’s fascinated with bioastronautics, the study of advancing human life in space, along with space policy. Outside of HackTJ, she serves as Student Representative to the Fairfax County School Board and is actively involved in TSA and Techstravaganza. In her free time, you can find her with her dog, spending time with her friends, or watching a comfort show on Netflix.',
 		portraitSrc: `${base}/teamportraits/Megan.jpeg`,
 		order: 6
 	},
@@ -96,7 +98,8 @@ let teamMembers = [
 		class: '2026',
 		years: 1,
 		director: false,
-		description: 'Hashmita is a junior at TJHSST, and she is excited for her first year on the team. She enjoys using her computer science knowledge to solve competitive programming problems and create apps that can help tackle real-world issues. Outside of HackTJ, she is involved in TSA and the Computer Team. In her free time, she enjoys playing basketball, baking, watching TV (especially Suits), and listening to music.',
+		description:
+			'Hashmita is a junior at TJHSST, and she is excited for her first year on the team. She enjoys using her computer science knowledge to solve competitive programming problems and create apps that can help tackle real-world issues. Outside of HackTJ, she is involved in TSA and the Computer Team. In her free time, she enjoys playing basketball, baking, watching TV (especially Suits), and listening to music.',
 		portraitSrc: `${base}/teamportraits/Hashmita.jpg`,
 		order: 10
 	},
@@ -105,7 +108,8 @@ let teamMembers = [
 		class: '2027',
 		years: 1,
 		director: false,
-		description: 'Dhanvin is a sophomore at TJHSST and is excited for his first year on the team after competing in HackTJ 11.0. He is interested in the intersection of machine learning and bioengineering, particularly in improving accessibility to real-world applications such as neurological diseases. Outside of HackTJ, he is a member of the Assistive Technology Club and serves as an officer and programmer for the FTC robotics team, Robot Uprising. In his free time, he enjoys playing basketball and badminton.',
+		description:
+			'Dhanvin is a sophomore at TJHSST and is excited for his first year on the team after competing in HackTJ 11.0. He is interested in the intersection of machine learning and bioengineering, particularly in improving accessibility to real-world applications such as neurological diseases. Outside of HackTJ, he is a member of the Assistive Technology Club and serves as an officer and programmer for the FTC robotics team, Robot Uprising. In his free time, he enjoys playing basketball and badminton.',
 		portraitSrc: `${base}/teamportraits/Dhanvin.jpg`,
 		order: 11
 	},
@@ -114,7 +118,8 @@ let teamMembers = [
 		class: '2027',
 		years: 1,
 		director: false,
-		description: 'Shaurya is a sophomore at TJHSST, and he is excited for his first year on the team after competing in HackTJ 11.0. He is interested in the application of machine learning and gen AI in creating solutions for human flourishing, as well as competitive programming and math. Outside of HackTJ, he is a dedicated member of Varsity Math Team and Computer Team. In his free time, he enjoys playing cricket with friends, spending time with family, and biking.',
+		description:
+			'Shaurya is a sophomore at TJHSST, and he is excited for his first year on the team after competing in HackTJ 11.0. He is interested in the application of machine learning and gen AI in creating solutions for human flourishing, as well as competitive programming and math. Outside of HackTJ, he is a dedicated member of Varsity Math Team and Computer Team. In his free time, he enjoys playing cricket with friends, spending time with family, and biking.',
 		portraitSrc: `${base}/teamportraits/Shaurya.jpg`,
 		order: 12
 	},
@@ -123,7 +128,8 @@ let teamMembers = [
 		class: '2027',
 		years: 1,
 		director: false,
-		description: 'Sanya is a sophomore at TJHSST, and she is excited for her first year on the team after competing in HackTJ 11.0. She is fascinated by the intersection of computer science, particularly artificial intelligence, and its transformative applications in business and engineering. Outside of HackTJ, she is a dedicated member of TSA and Namaste Club. In her free time, she enjoys watching TV, going to the gym, listening to music, and flying planes.',
+		description:
+			'Sanya is a sophomore at TJHSST, and she is excited for her first year on the team after competing in HackTJ 11.0. She is fascinated by the intersection of computer science, particularly artificial intelligence, and its transformative applications in business and engineering. Outside of HackTJ, she is a dedicated member of TSA and Namaste Club. In her free time, she enjoys watching TV, going to the gym, listening to music, and flying planes.',
 		portraitSrc: `${base}/teamportraits/Sanya.jpg`,
 		order: 13
 	},
@@ -132,7 +138,8 @@ let teamMembers = [
 		class: '2027',
 		years: 1,
 		director: false,
-		description: 'Sidh is a sophomore at TJHSST and is thrilled for his first year on the team after competing in HackTJ 11.0. He is interested in the applications of machine learning, particularly generative AI, in combating pressing real-world problems like climate change. Outside of HackTJ, he is a member of the Science Olympiad team and an officer and lecturer at Computer Vision club. In his free time, he enjoys hiking on scenic trails all throughout Virginia and exploring the outdoors.',
+		description:
+			'Sidh is a sophomore at TJHSST and is thrilled for his first year on the team after competing in HackTJ 11.0. He is interested in the applications of machine learning, particularly generative AI, in combating pressing real-world problems like climate change. Outside of HackTJ, he is a member of the Science Olympiad team and an officer and lecturer at Computer Vision club. In his free time, he enjoys hiking on scenic trails all throughout Virginia and exploring the outdoors.',
 		portraitSrc: `${base}/teamportraits/Sidh.jpg`,
 		order: 14
 	},

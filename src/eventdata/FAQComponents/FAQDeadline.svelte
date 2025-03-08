@@ -4,12 +4,12 @@
 
 <p>
 	Registration for participants, volunteers, mentors, judges, workshop hosts, and photographers
-	opens on 
+	opens on
 	<strong>January 27th</strong> .
 </p>
 
 <p class="mt-2">
-	Registration for participants closes on 
+	Registration for participants closes on
 	<strong>February 10th</strong> — will be a hard deadline; we do not accept submissions after this time.
 </p>
 <p class="mt-2">

@@ -104,8 +104,7 @@ module.exports = {
 					700: '#384342',
 					800: '#272e2e',
 					900: '#171b1b'
-				},
-	
+				}
 			},
 			fontFamily: {
 				sans: ['"Red Hat Display"', ...defaultTheme.fontFamily.sans]

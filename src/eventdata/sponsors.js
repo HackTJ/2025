@@ -102,7 +102,7 @@ const sponsorData = [
 	goldTierData,
 	silverTierData,
 	bronzeTierData,
-	prizeTierData,
+	prizeTierData
 ];
 
 export default sponsorData;

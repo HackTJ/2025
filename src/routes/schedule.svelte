@@ -30,7 +30,7 @@
 	let currentDate = Object.keys(cardData)[currentDateIndex];
 	let hourlyData = Object.values(cardData[currentDate]);
 
-	const activeButtonClass = 'bg-[#A7D0F1] text-blueberry-800 hover:bg-[#83BDEC]'; 
+	const activeButtonClass = 'bg-[#A7D0F1] text-blueberry-800 hover:bg-[#83BDEC]';
 	const inactiveButtonClass = 'border-2 border-white text-white hover:bg-blackberry-500';
 
 	function updateIndex(i) {

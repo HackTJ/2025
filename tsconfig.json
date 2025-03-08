@@ -28,5 +28,10 @@
 			"$lib/*": ["static/src/lib/*"]
 		}
 	},
-	"include": ["static/src/**/*.d.ts", "static/src/**/*.js", "static/src/**/*.ts", "static/src/**/*.svelte"]
+	"include": [
+		"static/src/**/*.d.ts",
+		"static/src/**/*.js",
+		"static/src/**/*.ts",
+		"static/src/**/*.svelte"
+	]
 }

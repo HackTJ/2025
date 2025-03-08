@@ -23,8 +23,16 @@
 							<details class="bg-blackberry-600 rounded-lg overflow-hidden">
 								<summary class="flex justify-between items-center p-4 cursor-pointer">
 									<h3 class="font-bold text-xl text-white">{question}</h3>
-									<svg class="w-6 h-6 text-white transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-										<polyline points="6 9 12 15 18 9"></polyline>
+									<svg
+										class="w-6 h-6 text-white transition-transform duration-300"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<polyline points="6 9 12 15 18 9" />
 									</svg>
 								</summary>
 								<div class="p-4 bg-blackberry-500 text-white">

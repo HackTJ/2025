@@ -101,13 +101,22 @@ let teamMembers = [
 		order: 10
 	},
 	{
+		name: 'Dhanvin Ganeshkumar',
+		class: '2027',
+		years: 1,
+		director: false,
+		description: 'Dhanvin is a sophomore at TJHSST and is excited for his first year on the team after competing in HackTJ 11.0. He is interested in the intersection of machine learning and bioengineering, particularly in improving accessibility to real-world applications such as neurological diseases. Outside of HackTJ, he is a member of the Assistive Technology Club and serves as an officer and programmer for the FTC robotics team, Robot Uprising. In his free time, he enjoys playing basketball and badminton.',
+		portraitSrc: `${base}/teamportraits/Dhanvin.jpg`,
+		order: 11
+	},
+	{
 		name: 'Shaurya Bisht',
 		class: '2027',
 		years: 1,
 		director: false,
 		description: 'Shaurya is a sophomore at TJHSST, and he is excited for his first year on the team after competing in HackTJ 11.0. He is interested in the application of machine learning and gen AI in creating solutions for human flourishing, as well as competitive programming and math. Outside of HackTJ, he is a dedicated member of Varsity Math Team and Computer Team. In his free time, he enjoys playing cricket with friends, spending time with family, and biking.',
 		portraitSrc: `${base}/teamportraits/Shaurya.jpg`,
-		order: 11
+		order: 12
 	},
 	{
 		name: 'Sanya Bhalla',
@@ -116,7 +125,7 @@ let teamMembers = [
 		director: false,
 		description: 'Sanya is a sophomore at TJHSST, and she is excited for her first year on the team after competing in HackTJ 11.0. She is fascinated by the intersection of computer science, particularly artificial intelligence, and its transformative applications in business and engineering. Outside of HackTJ, she is a dedicated member of TSA and Namaste Club. In her free time, she enjoys watching TV, going to the gym, listening to music, and flying planes.',
 		portraitSrc: `${base}/teamportraits/Sanya.jpg`,
-		order: 12
+		order: 13
 	},
 	{
 		name: 'Sidh Jaddu',
@@ -125,15 +134,6 @@ let teamMembers = [
 		director: false,
 		description: 'Sidh is a sophomore at TJHSST and is thrilled for his first year on the team after competing in HackTJ 11.0. He is interested in the applications of machine learning, particularly generative AI, in combating pressing real-world problems like climate change. Outside of HackTJ, he is a member of the Science Olympiad team and an officer and lecturer at Computer Vision club. In his free time, he enjoys hiking on scenic trails all throughout Virginia and exploring the outdoors.',
 		portraitSrc: `${base}/teamportraits/Sidh.jpg`,
-		order: 13
-	},
-	{
-		name: 'Dhanvinkumar Ganeshkumar',
-		class: '2027',
-		years: 1,
-		director: false,
-		description: '',
-		portraitSrc: `${base}/teamportraits/Dhanvin.jpg`,
 		order: 14
 	},
 	{

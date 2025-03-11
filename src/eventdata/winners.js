@@ -14,7 +14,7 @@ import quantum from 'svelte-icons/gi/GiAtom.svelte'
 import social from 'svelte-icons/io/IoIosHand.svelte'
 import life from 'svelte-icons/gi/GiLifeBar.svelte'
 
-export default [
+export const winners2024 = [
 	{
 		title: 'Best Overall Hack',
 		description:
@@ -144,3 +144,125 @@ export default [
 	},
     
 ];
+
+export const winners2025 = [
+	{
+		title: 'Best Overall Hack',
+		description:
+			'AlgoRhythm is an innovative digital audio workstation designed to empower beginner songwriters with intuitive music composition tools. Users can sing melodies, which are then transformed into various instrumental notes, while AI enhances their creations.',
+		name: 'AlgoRhythm', 
+		picture: `${base}/pastwinners/2025/overall2025winner.jpg`,
+		winners: 'Abraham Agbota, Ryan Ghimire, Justin Ma, Arjun Babla',
+		icon: best
+	},
+	{
+		title: 'Best Mobile Hack',
+		description:
+			'SeachParty enables users to create and join search parties for missing persons with real-time collaboration, live location tracking, and heatmaps of searched areas to prevent redundancy.',
+		name: 'SeachParty',
+		picture: `${base}/pastwinners/2025/mobile2025winner.jpg`,
+		winners: 'Aryan Gadre, Kanishk Sivanandam, Chetan Maviti, Adarsh Bharadwaj',
+		icon: mobile
+	},
+	{
+		title: 'Best AI/ML Hack',
+		description:
+			'SafeScape offers tailored experiences for civilians and first responders, with features for emergency reporting, 3D environment models, AR-guided navigation to exits, and direct communication channels.',
+		name: 'SafeScape',
+		picture: `${base}/pastwinners/2025/aiml2025winner.jpg`,
+		winners: 'Ansh Malhotra, Nivaan Kaushal, Pratham Singh, Armaan Ahmed',
+		icon: AIML
+	},
+	{
+		title: 'Best Web Hack',
+		description:
+			'QuantumFold models proteins and calculates solutions faster than existing classical algorithms using quantum computing and AlphaFold to balance high accuracy and speed.',
+		name: 'QuantumFold',
+		picture: `${base}/pastwinners/2025/web2025winner.jpg`,
+		winners: 'Deven Hagen, Justin Lee, Alan Zhu',
+		icon: web
+	},
+	{
+		title: 'Best Quantum Hack',
+		description:
+			'Enhanced MRI diagnostics using quantum computing to process medical images, performing edge detection, frequency domain filtering, and quantum amplitude encoding to highlight regions of interest.',
+		name: 'Quantum Enhanced MRI Diagnostics',
+		picture: `${base}/pastwinners/2025/quantum2025winner.jpg`,
+		winners: 'Kashi Kamat, Sarvani Vemuri, Surbhi Singla',
+		icon: quantum
+	},
+	{
+		title: 'Best Finance Hack',
+		description:
+			'Circa allows users to barter and rent different items, utilizing blockchain technology to make barters as accessible as possible.',
+		name: 'Circa',
+		picture: `${base}/pastwinners/2025/finance2025winner.jpg`,
+		winners: 'Maneesh Vaddi, Agastya Sondhi, Arjun Chitla, Adhiraj Chhoda',
+		icon: finance
+	},
+	{
+		title: 'Best Lifestyle Hack',
+		description:
+			'PinPoint helps you quickly locate sections of videos relevant to your queries, for rewatching tutorials, reviewing security footage, and setting up cameras to detect specific events.',
+		name: 'PinPoint',
+		picture: `${base}/pastwinners/2025/lifestyle2025winner.jpg`,
+		winners: 'Soham Jain, Shaurya Jain, Anmol Karan, Jason Hao',
+		icon: life
+	},
+	{
+		title: 'Best Cyber Technology Hack',
+		description:
+			'Deepfake Detector is a Chrome extension that analyzes images and videos directly on any webpage to check whether media content is AI-generated or manipulated.',
+		name: 'DeepShield',
+		picture: `${base}/pastwinners/2025/cyber2025winner.JPG`,
+		winners: 'Rohan Honganoor, Amogh Katiki, Andrew Chen, Jayden Yang',
+		icon: cyber
+	},
+	{
+		title: 'Best Biomedical Hack',
+		description:
+			'RDD uses audio pattern recognition to determine tuberculosis likelihood and includes a camera component to detect Parkinson\'s disease and other conditions.',
+		name: 'RDD: Respiratory Disease Detection',
+		picture: `${base}/pastwinners/2025/biomed2025winner.jpg`,
+		winners: 'Luv, Anush, Sanjeev, Saatvik',
+		icon: biomedical
+	},
+	{
+		title: 'Best Environmental Science Hack',
+		description:
+			'Retro Rower is a rowing simulator where you take the role of the coxswain/coach, building the best team of rowers to collect as much trash as possible.',
+		name: 'Retro Rower',
+		picture: `${base}/pastwinners/2025/env2025winner.jpg`,
+		winners: 'Darwin Goldstein, Daniil Prokofev, Christoph Knaeble',
+		icon: env
+	},
+	{
+		title: 'Best Beginner Hack',
+		description:
+			'AP romance personifies the AP classes and teaches the user a bit more about each one.',
+		name: 'AP romance',
+		picture: `${base}/pastwinners/2025/beginner2025winner.jpg`,
+		winners: 'Nathalie Hatchuel, Sohana bahl, Fay Amirullah',
+		icon: beginner
+	},
+	{
+		title: 'Best Use of ROAM AI Agent',
+		description:
+			'CyberGuard scrapes the web to find leaked passwords/emails, uses blockchain contracts for validation, scans networks for vulnerabilities, and includes a chatbot for cybersecurity decisions.',
+		name: 'CyberGuard',
+		picture: `${base}/pastwinners/2025/roam2025winner.JPG`,
+		winners: 'Shiv Davay, Aahan Sachdeva, Parthiv Maddipatla, Svaran Medavarapu',
+		icon: cyber
+	},
+	{
+		title: 'Vishnu Murthy Foundation Best Social Impact',
+		description:
+			'Jot It addresses the problem of doctors\' poor handwriting when prescribing medication and diagnosis.',
+		name: 'Jot It',
+		picture: `${base}/pastwinners/2025/social2025winner.jpg`,
+		winners: 'Sophia Huang, Jacob Dipasupil, Avery Li, Ipek Sayar',
+		icon: social
+	}
+];
+
+export default winners2024;

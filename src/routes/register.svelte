@@ -59,9 +59,9 @@
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Volunteer"
-				link="https://www.signupgenius.com/go/70A0F49A8AD22AAF58-47414114-hacktj"
+				link="https://www.signupgenius.com/go/70A0F49A8AD22AAF58-54936040-hacktj?useFullSite=true#/"
 				linkText="Volunteer Registration"
-				closed={registration.other.isOpen}
+				closed={!registration.other.isOpen}
 			>
 				<p>
 					Volunteers help with various tasks during the hackathon, such as checking in participants,

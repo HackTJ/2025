@@ -12,29 +12,29 @@ const scheduleItems = [
 	{
 		title: 'Sponsor Fair',
 		time: dayjs('3/08/2025 09:00', timeFormat),
-		end: dayjs('3/08/2025 11:00', timeFormat)
+		end: dayjs('3/08/2025 12:00', timeFormat)
 	},
 	{
 		title: 'Doors Close',
-		time: dayjs('3/08/2025 11:00', timeFormat)
+		time: dayjs('3/08/2025 12:00', timeFormat)
 	},
 	{
 		title: 'Opening Ceremony',
-		time: dayjs('3/08/2025 11:00', timeFormat),
-		end: dayjs('3/08/2025 11:30', timeFormat)
+		time: dayjs('3/08/2025 12:00', timeFormat),
+		end: dayjs('3/08/2025 12:30', timeFormat)
 	},
 	{
 		title: 'Hacking Begins',
-		time: dayjs('3/08/2025 11:30', timeFormat)
+		time: dayjs('3/08/2025 12:30', timeFormat)
 	},
 	{
 		title: 'Team Building',
-		time: dayjs('3/08/2025 11:45', timeFormat),
-		end: dayjs('3/08/2025 12:15', timeFormat)
+		time: dayjs('3/08/2025 12:30', timeFormat),
+		end: dayjs('3/08/2025 13:00', timeFormat)
 	},
 	{
 		title: 'Submit Check-In Form',
-		time: dayjs('3/08/2025 12:30', timeFormat)
+		time: dayjs('3/08/2025 13:00', timeFormat)
 	},
 	{
 		title: 'Resources and Q&A for Beginners',
